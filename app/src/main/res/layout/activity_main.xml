@@ -71,36 +71,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-
-        <TextView
-            android:id="@+id/textView38"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:fontFamily="sans-serif"
-            android:text="Please enter your registered email to receive the password reset link"
-            android:textAlignment="center"
-            android:textColor="#FFFDD0"
-            android:textSize="18sp"
-            app:layout_constraintEnd_toEndOf="@+id/view20"
-            app:layout_constraintStart_toStartOf="@+id/view20"
-            app:layout_constraintTop_toTopOf="@+id/view20" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName5"
-            android:layout_width="250dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="24dp"
-            android:ems="10"
-            android:background="@drawable/rounded_edittext"
-            android:inputType="textPersonName"
-            android:padding="8dp"
-            android:text="Name"
-            android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="@+id/view20"
-            app:layout_constraintStart_toStartOf="@+id/view20"
-            app:layout_constraintTop_toBottomOf="@+id/textView38" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <EditText
