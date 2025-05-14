@@ -49,7 +49,7 @@
                     app:layout_constraintBottom_toBottomOf="@+id/textView2"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/textView"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/icons8_user_account_48" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -101,8 +101,8 @@
 
         <ImageView
             android:id="@+id/imageViewHome"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_home" />
     </LinearLayout>
@@ -116,7 +116,7 @@
 
         <ImageView
             android:id="@+id/imageViewTask"
-            android:layout_width="match_parent"
+            android:layout_width="48dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/icons8_calendar_50" />
@@ -127,7 +127,9 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.2"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center"
+        android:elevation="8dp"> <!-- Thêm hiệu ứng nổi -->
 
         <ImageView
             android:id="@+id/imageViewAdd"
@@ -136,14 +138,6 @@
             android:layout_weight="1"
             android:visibility="visible"
             app:srcCompat="@drawable/ic_add" />
-
-        <TextView
-            android:id="@+id/textViewAdd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add"
-            android:textAlignment="center"
-            android:textSize="10sp" />
     </LinearLayout>
 
 
@@ -175,14 +169,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/icons8_user_account_48" />
-
-        <TextView
-            android:id="@+id/textViewAccount"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tài khoản"
-            android:textSize="10sp"
-            android:textAlignment="center"/>
     </LinearLayout>
 </LinearLayout>
         </com.google.android.material.bottomappbar.BottomAppBar>
