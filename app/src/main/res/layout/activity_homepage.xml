@@ -105,14 +105,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_home" />
-
-        <TextView
-            android:id="@+id/textViewHome"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Home"
-            android:textAlignment="center"
-            android:textSize="10sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -127,15 +119,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_task" />
-
-        <TextView
-            android:id="@+id/textViewTask"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Công việc hôm nay"
-            android:textAlignment="center"
-            android:textSize="10sp" />
+            app:srcCompat="@drawable/icons8_calendar_50" />
     </LinearLayout>
 
     <LinearLayout
@@ -175,15 +159,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_report" />
-
-        <TextView
-            android:id="@+id/textViewReport"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Thống kê"
-            android:textAlignment="center"
-            android:textSize="10sp" />
+            app:srcCompat="@drawable/ic_document" />
     </LinearLayout>
 
     <LinearLayout
@@ -198,7 +174,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_account" />
+            app:srcCompat="@drawable/icons8_user_account_48" />
 
         <TextView
             android:id="@+id/textViewAccount"
